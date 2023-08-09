@@ -1,14 +1,7 @@
-name: demo
+name: stats2
 channels:
-  - conda-forge
+  - defaults
 dependencies:
-  - python=3.11
-  - ipykernel # required for jupyter notebook in VS Code
-  - pip  # if you need more packages installed from pip 
-   - pip:
-     - langchain 
-     - openai 
-     - chromadb 
-     - tiktoken 
-     - unstructured 
-     - streamlit
+  - python=3.9
+  - pip:
+    - streamlit
