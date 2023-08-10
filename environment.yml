@@ -1,7 +1,13 @@
-name: stats2
+name: test
 channels:
   - defaults
 dependencies:
   - python=3.9
+  - pip
   - pip:
     - streamlit
+    - langchain
+    - openai
+    - chromadb
+    - tiktoken
+    - unstructured
