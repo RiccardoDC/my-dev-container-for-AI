@@ -23,7 +23,25 @@ A full list of available docker images can be found [here](https://github.com/de
 
 In general, containers are using the underlying operating system resources and drivers, so Windows containers can run on Windows only, and Linux containers can run on Linux only. Docker for Windows allows you to simulate running Linux containers on Windows, but under the hood a Linux VM is created, so still Linux containers are running on Linux, and Windows containers are running on Windows. 
 
-### How to use this template
+### How this template work
+
+After cloning the template you can press the green Code button to create a codespace. At this point a dev container is created following the instruction in the devcontainer.json file. The instructions are the following:
+
+1) execute the Dockerfile 
+2) run "conda init" to initialise the conda package manager
+
+The execution of Dockerfile is doing the following:
+
+1) create a specific image for miniconda, which can be found [here](https://mcr.microsoft.com/en-us/product/devcontainers/miniconda/about)
+2) create a conda environment named test, installing the libraries listed in the environment.yml file
+
+After some minutes a dev container is created. Run the following command to activate the test environment and start developing:
+
+`conda activate test`
+
+Also run the following to check that all the specified libraries are installed corretly
+
+`conda list`
 
 
 ### References
