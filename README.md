@@ -12,6 +12,8 @@ The contents of **devcontainer.json** defines what a dev container should includ
 
 A **Dockerfile** is a text file that contains a series of instructions for building a **Docker image**. It serves as a blueprint for creating a container that includes the application code, dependencies, and configuration settings. 
 
+A full list of available docker images can be found [here](https://github.com/devcontainers/images/tree/main) in the src folder.
+
 In general, containers are using the underlying operating system resources and drivers, so Windows containers can run on Windows only, and Linux containers can run on Linux only. Docker for Windows allows you to simulate running Linux containers on Windows, but under the hood a Linux VM is created, so still Linux containers are running on Linux, and Windows containers are running on Windows. 
 
 ### References
