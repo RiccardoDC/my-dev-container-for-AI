@@ -1,7 +1,7 @@
 # My container
 
 ### Brief recapp
-[Github codespace, or simply codespace, is a cloud-based development environment that runs your code in a container] [1]. More specifically, whenever you work in a codespace, you are using a **development container,** also called dev container, on a virtual machine. A **development container** is a type of **Docker container** that is specifically configured to provide a fully featured development environment. 
+[Github codespace, or simply codespace, is a cloud-based development environment that runs your code in a container][1]. More specifically, whenever you work in a codespace, you are using a **development container,** also called dev container, on a virtual machine. A **development container** is a type of **Docker container** that is specifically configured to provide a fully featured development environment. 
 
 The primary file in a dev container configuration is the **devcontainer.json** file.
 
@@ -12,4 +12,4 @@ A **Dockerfile** is a text file that contains a series of instructions for build
 In general, containers are using the underlying operating system resources and drivers, so Windows containers can run on Windows only, and Linux containers can run on Linux only. Docker for Windows allows you to simulate running Linux containers on Windows, but under the hood a Linux VM is created, so still Linux containers are running on Linux, and Windows containers are running on Windows. [5]
 
 ### References
-* [1]: https://bea.stollnitz.com/blog/vscode-ml-project/
+* [1]:https://bea.stollnitz.com/blog/vscode-ml-project/
