@@ -1,6 +1,6 @@
 
 
-# My minimal miniconda container for AI
+# My minimal miniconda container for AI :whale2:
 
 This is a template repository that provides a minimal Dev Container setup in codespace with miniconda and some essential libraries (e.g. openai, langchain, streamlit, etc) to build AI applications.  
 
